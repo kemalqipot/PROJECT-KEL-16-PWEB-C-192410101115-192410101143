@@ -1,0 +1,83 @@
+body{
+    background-image: url(bac.jpg);
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none ; 
+    color: black;
+}
+
+*{
+    margin: 0%;
+    font-family: sans-serif;
+    
+}*
+
+input{
+    margin-top: 5px;
+    background-color: rgb(233, 220, 220);
+}
+
+button{
+    background-color:rgb(116, 116, 116);
+    margin-top: 15px;
+    
+}
+
+form{
+    opacity: 1;
+    background-color: rgb(222, 208, 160, .5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.kotak2{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
+    
+}
+
+li{
+    display: inline;
+}
+.container2 {
+    width:80%;
+    margin:0 auto;
+    background-color: #FAF6E9;
+}
+.container2:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    padding:15px 0;
+    color:#9A9070;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color:#9A9070;
+    color:#fff;
+}
+.active {
+    background-color:#9A9070;
+    color: #fff
+}
